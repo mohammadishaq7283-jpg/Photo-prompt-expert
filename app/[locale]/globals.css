@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Dark Mode (Default) */
+  --primary: #00f3ff;
+  --bg: #050505;
+  --card: #121212;
+  --text: #ffffff;
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="light"] {
+  /* Light Mode */
+  --primary: #d4af37;
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a1a;
+  --border: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
