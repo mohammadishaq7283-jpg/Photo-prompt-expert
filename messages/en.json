@@ -1,0 +1,11 @@
+{
+  "Common": {
+    "title": "PixelMystic",
+    "newChat": "New Chat",
+    "placeholderInput": "Describe an image or upload one...",
+    "analyzing": "Analyzing...",
+    "generating": "Generating Art...",
+    "history": "History",
+    "theme": "Switch Theme"
+  }
+}
